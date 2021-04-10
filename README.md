@@ -6,4 +6,7 @@ Inference or prediction: inference.py
 
 Plots and models will be saved in the 'model_out' folder. Outputs will be generated in the 'out' folder.
 
-After running """inference.py"""
+After running 
+"""python
+inference.py
+"""
