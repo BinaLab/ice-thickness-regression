@@ -1,7 +1,9 @@
 # ice-thickness-regression
 
-training: thickness_regression.py
+Training: thickness_regression.py
 
-inference or prediction: inference.py
+Inference or prediction: inference.py
 
-plots and models will be saved in the 'model_out' folder. outputs will be generated in the 'out' folder.
+Plots and models will be saved in the 'model_out' folder. Outputs will be generated in the 'out' folder.
+
+After running """inference.py"""
