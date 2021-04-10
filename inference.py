@@ -6,7 +6,7 @@ from os.path import *
 from tensorflow.keras.models import load_model
 
 timestamp = '01-02-21_01-21' ### insert timestamp here for which you want to predict output
-out_root = '../../Outputs/Snow Radar/Thickness Regression'
+out_root = 'out' ### output folder where you want to generate model predictions
 model_ext = '.h5'
 img_ext = '.png'
 txt_ext = '.txt'
