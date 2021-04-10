@@ -5,10 +5,10 @@ import numpy as np
 
 img_ext = '.png'
 txt_ext = '.txt'
-train_img_root = '../../Dataset/Snow Radar/2012_cropped/train/image/'
-train_thick_root = '../../Dataset/Snow Radar/2012_cropped/train/thickness_estimates2/'
-test_img_root = '../../Dataset/Snow Radar/2012_cropped/test/image/'
-test_thick_root = '../../Dataset/Snow Radar/2012_cropped/test/thickness_estimates2/'
+train_img_root = '../../Dataset/Snow Radar/2012_cropped/train/image/' ### training images
+train_thick_root = '../../Dataset/Snow Radar/2012_cropped/train/thickness_estimates2/' ### training thickness
+test_img_root = '../../Dataset/Snow Radar/2012_cropped/test/image/' ### test images
+test_thick_root = '../../Dataset/Snow Radar/2012_cropped/test/thickness_estimates2/' ### test thickness
 
 
 ### load training images ###
