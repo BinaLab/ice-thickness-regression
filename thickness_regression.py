@@ -55,8 +55,8 @@ if not isdir(evaluation):
 if not isdir(history):
     makedirs(history)
     
-img_root = '../../Dataset/Snow Radar/2012_cropped/train/image/'
-thick_root = '../../Dataset/Snow Radar/2012_cropped/train/thickness_estimates2/'
+img_root = '../../Dataset/Snow Radar/2012_cropped/train/image/' ### folder path of training images
+thick_root = '../../Dataset/Snow Radar/2012_cropped/train/thickness_estimates2/' ### folder path of thickness estimates of training images
 
 def train_model(base_model, model_name, traindata, thickness_estims):
     x = base_model.output
