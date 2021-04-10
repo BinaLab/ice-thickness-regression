@@ -12,7 +12,7 @@ img_ext = '.png'
 txt_ext = '.txt'
 train = 'train'
 test = 'test'
-models_in = join('out',timestamp,'models')
+models_in = join('models_out',timestamp,'models')
 models = [model for model in listdir(models_in) if model_ext in model]
 
     
