@@ -1,7 +1,7 @@
 # ice-thickness-regression
 
 #### Overview
-This code estimates thickness of each ice layer present in a given Snow Radar image. The algorithm is based on Fully Convolutional Regression Networks, and assumes a maximum of 27 ice layers to be present in an image. 
+This code estimates thickness of each ice layer present in a given Snow Radar image. We assume a maximum of 27 layers in any image, and use CNNs with a mean absolue error loss.
 
 The code requires `keras` library.
 
