@@ -22,6 +22,11 @@ test_folder = '../../Dataset/Snow Radar/2012_cropped/test/image/'
 out_train = join(out_root, timestamp, train)
 out_test = join(out_root, timestamp, test)
 
+if not isdir(out_train):
+    makedirs(out_train)
+if not isdir(out_test):
+    makedirs(out_test)
+
 f_tr = open(join(out_train,'model_eval.txt'),'w+')
 f_te = open(join(out_test,'model_eval.txt'),'w+')  
 
